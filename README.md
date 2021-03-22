@@ -1,4 +1,4 @@
-## Iniciando o Projetos
+## Iniciando o Projeto
 
 Para rodar em um ambiente de Testes
 
@@ -8,4 +8,4 @@ npm run dev
 yarn dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) em seu browser
+Após rodar o servidor local, abra o endereço [http://localhost:3000](http://localhost:3000) em seu Navegador
