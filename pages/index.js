@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/home.css'
 
 import { imgUrl } from '../lib/tmdb';
 
@@ -22,7 +22,7 @@ export default function Home({list}) {
             </li>
           </ul>
         ))}
-        
+
       </main>
     </div>
   );
