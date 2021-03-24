@@ -1,17 +1,16 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "../../styles/Home.module.css";
 
 import { imgUrl } from "../../lib/tmdb";
 
 export default function Movie({info}) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>NextJS Movies</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main>
         <Link href="/search">
           <h4>Buscar Filmes</h4>
         </Link>

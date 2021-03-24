@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import styles from "../styles/Search.module.css";
 
 import { imgUrl } from "../lib/tmdb";
 
@@ -17,21 +16,19 @@ export default function Search() {
   };
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>NextJS Movies | Busca</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main>
         <h2>Buscar Filmes</h2>
         <input
-          className={styles.input}
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
         <input
-          className={styles.inputButton}
           type="submit"
           value="Buscar Filme"
           onClick={handleSearch}
